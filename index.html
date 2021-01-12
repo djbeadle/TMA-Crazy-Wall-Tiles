@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+
+  <title>TMA Crazy Wall</title>
+  <meta name="description" content="Things are getting spooky">
+  <meta name="author" content="Tim">
+
+  <script src="openseadragon/openseadragon.min.js"></script>
+  <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
+
+</head>
+
+<body>
+  <div id="openseadragon1" style="width: 100vw; height: 100vh; display: block;"></div>
+  <script type="text/javascript">
+    var viewer = OpenSeadragon({
+        id: "openseadragon1",
+        prefixUrl: "/tmcw_files/",
+        tileSources: "/tmcw.dzi"
+    });
+</script>
+
+  <!-- <script src="js/scripts.js"></script> -->
+</body>
+</html>
