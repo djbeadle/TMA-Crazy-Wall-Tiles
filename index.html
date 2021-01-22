@@ -19,8 +19,12 @@
   <script type="text/javascript">
     var viewer = OpenSeadragon({
         id: "openseadragon1",
-        prefixUrl: "/tmcw_files/",
-        tileSources: "/tmcw.dzi"
+        prefixUrl: "/seadragon_files/",
+		sequenceMode: true,
+        tileSources: [
+			"/ep77.dzi",
+			"/ep92.dzi",
+		]
     });
 </script>
 
